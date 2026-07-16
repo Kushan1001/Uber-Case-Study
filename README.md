@@ -1,5 +1,13 @@
 # Uber Ride Cancellation Prediction
 
+**Repo:** [link to this repo]
+
+## The problem
+
+Every ride booking that gets cancelled after a driver is already dispatched costs the platform money — wasted driver time, wasted fuel, and a frustrated driver who's more likely to churn. If Uber could predict, at the time of booking, which rides are likely to fall through, it could intervene early: reroute a driver, adjust pricing, or flag high-risk customers before the cancellation happens. This case study builds that prediction model and then estimates what it would actually be worth in rupees if acted on.
+
+## Overview
+
 A case study using Uber's NCR ride bookings dataset (150,000 rides) to predict whether a booking will complete or get cancelled, then using that model to figure out where the business should actually spend money to reduce cancellations.
 
 ## The data
@@ -63,3 +71,7 @@ pandas, numpy, scikit-learn, imbalanced-learn (SMOTE), LightGBM, matplotlib, sea
 ## Files
 
 - `Uber_Case_Study.ipynb` — full notebook: EDA, cleaning, feature engineering, three models, threshold optimization, error analysis, business simulations, fairness checks
+
+## Note
+
+One cell in the executive summary section references an AUC value that was never actually computed/filled in (it prints a template string with a placeholder still in it) — worth fixing before treating that paragraph as a finished output.
