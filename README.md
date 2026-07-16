@@ -1,7 +1,5 @@
 # Uber Ride Cancellation Prediction
 
-**Repo:** [link to this repo]
-
 ## The problem
 
 Every ride booking that gets cancelled after a driver is already dispatched costs the platform money — wasted driver time, wasted fuel, and a frustrated driver who's more likely to churn. If Uber could predict, at the time of booking, which rides are likely to fall through, it could intervene early: reroute a driver, adjust pricing, or flag high-risk customers before the cancellation happens. This case study builds that prediction model and then estimates what it would actually be worth in rupees if acted on.
