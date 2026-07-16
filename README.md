@@ -63,7 +63,3 @@ pandas, numpy, scikit-learn, imbalanced-learn (SMOTE), LightGBM, matplotlib, sea
 ## Files
 
 - `Uber_Case_Study.ipynb` — full notebook: EDA, cleaning, feature engineering, three models, threshold optimization, error analysis, business simulations, fairness checks
-
-## Note
-
-One cell in the executive summary section references an AUC value that was never actually computed/filled in (it prints a template string with a placeholder still in it) — worth fixing before treating that paragraph as a finished output.
